@@ -1,6 +1,6 @@
 package Decoretor;
 
-public class SubscriptionDecorator implements Subscription{
+public abstract class SubscriptionDecorator implements Subscription{
 
     protected Subscription subsctription;
 
